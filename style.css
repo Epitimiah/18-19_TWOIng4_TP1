@@ -1,33 +1,51 @@
-img{
-    max-width: 25%;
-    height: auto;
-    box-shadow: 10px 5px 5px black;
+img {
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 180px;
+    height: 160px;
 }
 
-h1{
-    padding-left: 35%;
-}
-
-h3{
+h3 {
     padding-left: 15%;
 }
 
-form{
+form {
     padding-left: 15%;
 }
 
 .nav{
-    background:#19b4a0;
-    height:40px;
-    margin-bottom:15px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
-.nav ul li{
-    float:left;
-    list-style:none
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(163, 34, 34);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(85, 9, 9);
+  }
+
+
+.fieldset {
+    padding-right: 1em;
 }
-.nav ul li a{
-    line-height:40px;
-    display:block;
-    padding:0 50px;
-}
- 

@@ -10,22 +10,32 @@
 <body>
 
     <div class="head">
-        <h1>Bienvenue sur mon CV</h1>
+        <center>
+            <h1>Bienvenue sur mon CV Web</h1>
+            <img src="lea_cv.jpg" alt="Photo de moi" class="imglea">
+        </center>
     </div>
 
     <div class="nav">
         <ul>
-            <li><a href="#">Accueil</a></li>
             <li><a href="#">Enseignement</a></li>
             <li><a href="#">Expériences</a></li>
             <li><a href="#">Compétences</a></li>
             <li><a href="#">Loisirs</a></li>
-            <li><a href="#">Me Contacter</a></li>
+            <li><a href="#video">Ma vidéo préférée</a></li>
+            <li><a href="#contact">Me Contacter</a></li>
         </ul>
+
     </div>
 
     <div class="main">
-        <img src="lea_cv.jpg" alt="Photo de moi" class="imglea">
+        
+        <center>
+            <video id="video" width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </center>
     </div>
 
 
@@ -33,12 +43,14 @@
 
     <embed height="60" type="audio/midi" width="144" src="audio.mp3" volume="60" loop="false" autostart="false" />
 
-    <h3>Me contacter :</h3>
-    <form>
-        <input type="email" autofocus required placeholder="Email" name="emailUser" /> </br>
-        <input type="nom" placeholder="Nom" name="nomUser" /> </br>
-        <input type="text" placeholder="Commentaire" name="comUser" /> </br>
-    </form>
+    <fieldset id="contact">
+        <legend>Me contacter :</legend>
+        <form>
+            <input type="email" autofocus required placeholder="Email" name="emailUser" /> </br>
+            <input type="nom" placeholder="Nom" name="nomUser" /> </br>
+            <input type="text" placeholder="Commentaire" name="comUser" /> </br>
+        </form>
+    </fieldset>
 
 </body>
 

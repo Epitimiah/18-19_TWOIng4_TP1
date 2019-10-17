@@ -39,6 +39,16 @@
 
 body {
     margin-top: 5%;
+    background-image: url("stuff/mine.jpg");
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: rgba(211, 211, 211, 0.9);
 }
 
 h3 {
@@ -53,6 +63,7 @@ form {
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     display: inline-block;
 }
 
@@ -87,6 +98,31 @@ li a:hover {
     padding-right: 1em;
 }
 
+#lgd{
+    color: white;
+}
+
+#ens {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#xp {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#comp {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#loisirs {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#labelvideo{
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+
 #animated {
     position: relative;
     background-color: #7e0d1360;
@@ -104,68 +140,6 @@ li a:hover {
 
 @keyframes animated {
     0% {
-        transform: rotate(0deg);
-        left: 0px;
-    }
-
-    25% {
-        transform: rotate(20deg);
-        left: 0px;
-    }
-
-    50% {
-        transform: rotate(0deg);
-        left: 500px;
-    }
-
-    55% {
-        transform: rotate(0deg);
-        left: 500px;
-    }
-
-    70% {
-        transform: rotate(0deg);
-        left: 500px;
-        background: #1ec7e6;
-    }
-
-    100% {
-        transform: rotate(-360deg);
-        left: 0px;
-    }
-
-    0% {
-        -webkit-transform: rotate(0deg);
-        left: 0px;
-    }
-
-    25% {
-        -webkit-transform: rotate(20deg);
-        left: 0px;
-    }
-
-    50% {
-        -webkit-transform: rotate(0deg);
-        left: 500px;
-    }
-
-    55% {
-        -webkit-transform: rotate(0deg);
-        left: 500px;
-    }
-
-    70% {
-        -webkit-transform: rotate(0deg);
-        left: 500px;
-        background: #1ec7e6;
-    }
-
-    100% {
-        -webkit-transform: rotate(-360deg);
-        left: 0px;
-    }
-
-    0% {
         -moz-transform: rotate(0deg);
         left: 0px;
     }
@@ -177,18 +151,18 @@ li a:hover {
 
     50% {
         -moz-transform: rotate(0deg);
-        left: 500px;
+        left: 200px;
     }
 
     55% {
         -moz-transform: rotate(0deg);
-        left: 500px;
+        left: 200px;
     }
 
     70% {
         -moz-transform: rotate(0deg);
-        left: 500px;
-        background: #1ec7e6;
+        left: 200px;
+        background: #128a66;
     }
 
     100% {

@@ -39,6 +39,16 @@
 
 body {
     margin-top: 5%;
+    background-image: url("stuff/mine.jpg");
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: rgba(211, 211, 211, 0.9);
 }
 
 h3 {
@@ -53,6 +63,7 @@ form {
     width: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     display: inline-block;
 }
 
@@ -86,6 +97,31 @@ li a:hover {
 .fieldset {
     padding-right: 1em;
 }
+
+#lgd{
+    color: white;
+}
+
+#ens {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#xp {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#comp {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#loisirs {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+#labelvideo{
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
 
 #animated {
     position: relative;

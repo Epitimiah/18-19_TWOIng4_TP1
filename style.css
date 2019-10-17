@@ -1,0 +1,198 @@
+.imglea {
+    overflow: hidden;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 180px;
+    height: 160px;
+}
+
+.logoBangor {
+    overflow: hidden;
+    width: 120px;
+    height: 100px;
+}
+
+.logoEce {
+    overflow: hidden;
+    width: 180px;
+    height: 50px;
+}
+
+.logoLvd {
+    overflow: hidden;
+    width: 180px;
+    height: 60px;
+}
+
+.logoNga {
+    overflow: hidden;
+    width: 180px;
+    height: 80px;
+}
+
+.logoMakers {
+    overflow: hidden;
+    width: 180px;
+    height: 50px;
+}
+
+body {
+    margin-top: 5%;
+}
+
+h3 {
+    padding-left: 15%;
+}
+
+form {
+    padding-left: 15%;
+}
+
+.nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(163, 34, 34);
+}
+
+li {
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 4%;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: rgb(85, 9, 9);
+}
+
+.fieldset {
+    padding-right: 1em;
+}
+
+#animated {
+    position: relative;
+    background-color: #7e0d1360;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 10px;
+    animation: animated 5s 1;
+    -moz-animation: animated 5s 1;
+    -webkit-animation: animated 5s 1;
+    -o-animation: animated 5s 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+@keyframes animated {
+    0% {
+        transform: rotate(0deg);
+        left: 0px;
+    }
+
+    25% {
+        transform: rotate(20deg);
+        left: 0px;
+    }
+
+    50% {
+        transform: rotate(0deg);
+        left: 500px;
+    }
+
+    55% {
+        transform: rotate(0deg);
+        left: 500px;
+    }
+
+    70% {
+        transform: rotate(0deg);
+        left: 500px;
+        background: #1ec7e6;
+    }
+
+    100% {
+        transform: rotate(-360deg);
+        left: 0px;
+    }
+
+    0% {
+        -webkit-transform: rotate(0deg);
+        left: 0px;
+    }
+
+    25% {
+        -webkit-transform: rotate(20deg);
+        left: 0px;
+    }
+
+    50% {
+        -webkit-transform: rotate(0deg);
+        left: 500px;
+    }
+
+    55% {
+        -webkit-transform: rotate(0deg);
+        left: 500px;
+    }
+
+    70% {
+        -webkit-transform: rotate(0deg);
+        left: 500px;
+        background: #1ec7e6;
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+        left: 0px;
+    }
+
+    0% {
+        -moz-transform: rotate(0deg);
+        left: 0px;
+    }
+
+    25% {
+        -moz-transform: rotate(20deg);
+        left: 0px;
+    }
+
+    50% {
+        -moz-transform: rotate(0deg);
+        left: 500px;
+    }
+
+    55% {
+        -moz-transform: rotate(0deg);
+        left: 500px;
+    }
+
+    70% {
+        -moz-transform: rotate(0deg);
+        left: 500px;
+        background: #1ec7e6;
+    }
+
+    100% {
+        -moz-transform: rotate(-360deg);
+        left: 0px;
+    }
+}
